@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #eeeeee;
+    background-image:url('img/medio.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxlog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logHead img {
+    height: 50px;
+    margin: 0 15px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    color: #4a6da7;
+    margin: 0 15px; 
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.receive {
+    width: 85%;
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    color: #3d3d3d;
+    padding: 10px 10px;
+    background: transparent;
+    transition: color 0.2s;
+}
+
+.receive:focus, .receive:valid {
+    color: #4a6da7;
+    transition: 0s;
+}
+
+#receive{
+    margin: 0 20px;
+}
+
+label {
+    background-color: #4a6da7;
+    height: 10px;
+}
+
+#sub-buton{
+    display: flex;
+    margin: 30px 0;
+}
+
+.sumit {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20%;
+}
+
+.sumitButton {
+    border:none;
+    border-radius: 5px;
+    color: #4a6da7;
+    background: #3d3d3d;
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.sumitButton:focus, .sumitButton:hover {
+    color: #3d3d3d;
+    background: #4a6da7;
+    transition: 0.5s;
+}
+
+.home{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+}
+
+.home a {
+    padding: 3px 5px;
+    margin: 0 5px;
+    font-size: 18px ;
+    color: #000;
+    background: #fff;
+    border: 2px solid #4a6da7;
+    border-radius: 5px;
+}
+
+.home a:hover { 
+    color: #ffff;
+    background: #4a6da7;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.2s;
+}
